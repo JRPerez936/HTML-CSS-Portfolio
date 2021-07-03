@@ -11,6 +11,7 @@
 body {
     background-color: var(--tertiary-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--secondary-color);
 }
 
 a {
@@ -51,10 +52,18 @@ header nav ul li {
     margin-left: 5px;
 }
 .hero{
-    height: 200px;
+    height: 210px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/Angelisland.jpg");
     background-size: cover;
     background-position: center;
+}
+.hero h2{
+    float: right;
+    margin-right: 70px;
+    margin-top: 150px;
+    background-color: var(--primary-color);
+    padding: 5px 5px 5px 5px;
+    font-size: 30px;
 }
