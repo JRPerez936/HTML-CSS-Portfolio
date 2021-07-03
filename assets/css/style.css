@@ -129,10 +129,6 @@ header nav ul li a {
     margin-top: 60px;
     font-size: 30px;
 }
-.small-project a{
-    color: var(--section-text-color);
-    text-decoration: none;
-}
 .big-project:hover{
     opacity: 1;
 }
