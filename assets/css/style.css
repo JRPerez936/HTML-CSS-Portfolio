@@ -17,11 +17,16 @@ a {
     color: var(--primary-color);
     font-size: 20px;
     text-decoration: none;
+    border-bottom: 3px solid var(--primary-color);
 }
 
 header {
     padding: 20px 35px;
-    background-color: var(--secondary-color); 
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
 }
 
 header h1 {
