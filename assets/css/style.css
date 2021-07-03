@@ -65,9 +65,12 @@ header nav ul li {
     float: right;
     margin-right: 70px;
     margin-top: 80px;
-    background-color: var(--primary-color);
     padding: 5px 5px 5px 5px;
     font-size: 30px;
+}
+.hero h2 span{
+    background-color: var(--primary-color);
+    border: 5px solid var(--primary-color);
 }
 .section-title{
     font-size: 55px;
@@ -195,6 +198,11 @@ section{
     }
     header nav{
         margin: 0;
+    }
+    .hero h2{
+        float: none;
+        justify-content: center;
+        text-align: center;
     }
     footer nav{
         text-align: center;
