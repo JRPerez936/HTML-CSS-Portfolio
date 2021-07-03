@@ -170,8 +170,7 @@ footer h2{
     text-align: right;
 }
 footer nav{
-    padding:50px 10px 30px 0px;
-    float: right;
+    padding:50px 0px 30px 0px;
     font-size: 40px;
     border-left: 3px solid var(--section-text-color);
 }
@@ -181,7 +180,7 @@ footer nav ul {
 footer nav ul li {
     display: inline-block;
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 47px;
 }
 footer nav ul li a{
     color: var(--secondary-color);   
@@ -215,6 +214,9 @@ section{
     }
     .small-project{
         width: 90%;
+    }
+    footer h2{
+        text-align: center;
     }
 }
 @media screen and (max-width: 768px) {
