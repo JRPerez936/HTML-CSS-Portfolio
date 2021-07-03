@@ -7,11 +7,12 @@
     --primary-color: #92cccd;
     --secondary-color:#31343d;
     --tertiary-color:#ededf6;
+    --section-text-color:#4c607d;
 }
 body {
     background-color: var(--tertiary-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: var(--secondary-color);
+    color: var(--section-text-color);
 }
 
 a {
@@ -75,9 +76,11 @@ header nav ul li {
 }
 .about-me h2{
     font-size: 55px;
-    margin-right: 10px;
+    margin-right: 3px;
 }
 .about-me p{
-    width: 50%;
+    border-left: 3px solid var(--section-text-color);
+    padding-left: 30px;
+    width: 60%;
 }
 
