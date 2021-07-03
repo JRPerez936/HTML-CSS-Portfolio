@@ -1,4 +1,8 @@
 # WK2C-Portfolio
-![final example](https://user-images.githubusercontent.com/85633985/124337290-c05b6500-db6f-11eb-8053-7f11876db0fc.PNG)
 
-![portfolio img 2](https://user-images.githubusercontent.com/85633985/124343874-e9deb580-db9c-11eb-9cea-33a14bded617.PNG)
+This is a website containing my portfolio. It has been designed after the mockup shown and contains multiple functions.
+On the header there are links to each section of my portfolio that when clicked will take you to them. In the work section
+there are projects listed that would take you to completed project webpages. Currently the only Project that is developed is run-buddy,
+so it is the only working link, the rest are placeholders. At the bottom of the page there are links with my contact info. 
+
+Below is an example of what the website looks like:
