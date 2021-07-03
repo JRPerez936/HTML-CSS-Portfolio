@@ -63,7 +63,7 @@ header nav ul li {
 .hero h2{
     float: right;
     margin-right: 70px;
-    margin-top: 150px;
+    margin-top: 80px;
     background-color: var(--primary-color);
     padding: 5px 5px 5px 5px;
     font-size: 30px;
@@ -72,25 +72,20 @@ header nav ul li {
     font-size: 55px;
     margin-right: 3px;
 }
-.about-me{
+.portfolio{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
     padding-bottom: 20px;
 }
+
 .about-me p{
     border-left: 3px solid var(--section-text-color);
     padding-left: 30px;
     width: 60%;
 }
-.work{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    padding-bottom: 20px;
-}
+
 .work h2{
     padding-left: 107px;
 }
@@ -152,4 +147,38 @@ header nav ul li {
 .pj4{
     background-image: url("../images/run_buddy.PNG");
     background-size: cover;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+footer h2{
+    color: var(--section-text-color);
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 10px;
+    border-right: 3px solid var(--section-text-color);
+}
+footer nav{
+    padding:0px 68px;
+    float: right;
+    font-size: 40px;
+    
+}
+footer nav ul {
+    list-style-type: none;
+}
+footer nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 50px;
+}
+footer nav ul li a{
+    color: var(--secondary-color);
+}
+section{
+    padding: 60px;
 }
