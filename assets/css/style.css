@@ -14,13 +14,6 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--section-text-color);
 }
-
-a {
-    color: var(--primary-color);
-    font-size: 20px;
-    text-decoration: none;
-    border-bottom: 3px solid var(--primary-color);
-}
 header {
     padding: 5px 0 10px;
     background-color: var(--secondary-color);
@@ -52,6 +45,12 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 5px;
+}
+header nav ul li a {
+    color: var(--primary-color);
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 3px solid var(--primary-color);
 }
 .hero{
     height: 210px;
@@ -130,6 +129,10 @@ header nav ul li {
     margin-top: 60px;
     font-size: 30px;
 }
+.small-project a{
+    color: var(--section-text-color);
+    text-decoration: none;
+}
 .big-project:hover{
     opacity: 1;
 }
@@ -181,8 +184,7 @@ footer nav ul li {
     margin-left: 50px;
 }
 footer nav ul li a{
-    color: var(--secondary-color);
-    border-bottom: 3px solid var(--secondary-color);   
+    color: var(--secondary-color);   
 }
 section{
     padding: 60px;
