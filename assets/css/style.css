@@ -73,8 +73,9 @@ header nav ul li {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    padding-bottom: 20px;
 }
-.about-me h2{
+.section-title{
     font-size: 55px;
     margin-right: 3px;
 }
