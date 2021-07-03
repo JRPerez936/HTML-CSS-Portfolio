@@ -6,3 +6,4 @@ there are projects listed that would take you to completed project webpages. Cur
 so it is the only working link, the rest are placeholders. At the bottom of the page there are links with my contact info. 
 
 Below is an example of what the website looks like:
+![Alt Text](../assets/images/Portfolio.gif)
