@@ -6,4 +6,6 @@ there are projects listed that would take you to completed project webpages. Cur
 so it is the only working link, the rest are placeholders. At the bottom of the page there are links with my contact info. 
 
 Below is an example of what the website looks like: <br />
-![Alt Text](./assets/images/Portfolio.gif)
+![Alt Text](./assets/images/Portfolio.gif) <br />
+
+A Link to the page can be found here: https://jrperez936.github.io/WK2C-Portfolio/
