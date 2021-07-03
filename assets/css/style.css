@@ -91,4 +91,26 @@ header nav ul li {
     align-items: flex-start;
     padding-bottom: 20px;
 }
-
+.work h2{
+    padding-left: 107px;
+}
+.projects{
+    border-left: 3px solid var(--section-text-color);
+    padding-left: 30px;
+    width: 60%;
+    background-size:cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+.big-project{
+    min-height: 300px;
+    width: 100%;
+    border: 4px solid var(--primary-color);
+    background-image: url("../images/Angelisland.jpg");
+}
+.small-project{
+    width: 50%;
+    min-height: 150px;
+    border: 4px solid var(--primary-color);
+    background-image: url("../images/Angelisland.jpg");
+}
