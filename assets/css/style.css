@@ -3,19 +3,33 @@
     padding: 0;
     margin: 0;
 }
+:root{
+    --primary-color: #92cccd;
+    --secondary-color:#31343d;
+    --tertiary-color:#ededf6;
+}
 body {
-    background-color: #d9dcd6;
+    background-color: var(--tertiary-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+a {
+    color: var(--primary-color);
+    font-size: 20px;
+    text-decoration: none;
+}
+
 header {
     padding: 20px 35px;
-    background-color: #31343d; 
+    background-color: var(--secondary-color); 
 }
 
 header h1 {
-    color: #ffffff;
-    display: inline-block;
-    margin: 0;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    justify-content: left;
+    display: inline;
+    margin: 0px;
     font-size: 48px;
 }
 
