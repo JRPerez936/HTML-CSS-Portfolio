@@ -27,9 +27,9 @@ header {
 header h1 {
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    justify-content: left;
     display: inline;
-    margin: 0px;
+    margin: 0;
+    padding-left: 50px;
     font-size: 48px;
 }
 
