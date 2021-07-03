@@ -68,6 +68,10 @@ header nav ul li {
     padding: 5px 5px 5px 5px;
     font-size: 30px;
 }
+.section-title{
+    font-size: 55px;
+    margin-right: 3px;
+}
 .about-me{
     display: flex;
     justify-content: center;
@@ -75,13 +79,16 @@ header nav ul li {
     align-items: flex-start;
     padding-bottom: 20px;
 }
-.section-title{
-    font-size: 55px;
-    margin-right: 3px;
-}
 .about-me p{
     border-left: 3px solid var(--section-text-color);
     padding-left: 30px;
     width: 60%;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-bottom: 20px;
 }
 
